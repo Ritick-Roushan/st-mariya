@@ -1,0 +1,1 @@
+# creating a website for the school 
