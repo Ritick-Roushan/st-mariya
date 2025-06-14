@@ -10,12 +10,12 @@ const Footer = () => {
             <Link to="/" className="flex items-center space-x-3">
               <div className="relative">
                 <img
-                  src="/logo.jpg"
+                  src="/logo1.jpg"
                   alt="St. Mary Public School Logo"
                   className="h-12 rounded-full object-cover border-2 border-[#FF9999] shadow-[0_2px_8px_rgba(0,0,0,0.1)]"
                 />
               </div>
-              <span className="text-lg font-semibold">St. Mary Public School</span>
+              <span className="text-lg font-semibold">St. Mariya Public School</span>
             </Link>
             <p className="text-sm text-gray-200">
               Nurturing excellence through quality education and holistic development.
@@ -28,7 +28,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {[
                 { to: '/', text: 'Home' },
-                { to: '/about', text: 'About' },
+                { to: '/about-school', text: 'About' },
                 { to: '/admissions', text: 'Admissions' },
                 { to: '/contact', text: 'Contact' },
               ].map(({ to, text }, index) => (
@@ -49,14 +49,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-center">
+                {/* Phone Icon */}
                 <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M21 3H3v18h18V3zm-2 16H5V5h14v14zM10 7h4v2h-4V7zm0 4h4v2h-4v-2zm0 4h4v2h-4v-2z" />
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.47.57 3.57.11.35.03.74-.25 1.02L6.62 10.79z" />
                 </svg>
                 9452426947, 7007061031
               </li>
               <li className="flex items-center">
+                {/* Email Icon */}
                 <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20 4H4v16h16V4zm-2 14H6V6h12v12zM7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h7v2H7v-2z" />
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                 </svg>
                 stmariyacbr@gmail.com
               </li>
@@ -64,7 +66,19 @@ const Footer = () => {
                 <svg className="w-4 h-4 mr-2 mt-1" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                 </svg>
-                Gani Market Chhibramau Kannauj, Uttar Pradesh (209721)
+                <div>
+                  <a
+                    href="https://maps.app.goo.gl/6ZaKDRE6989kDrk56"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#FF9999] hover:underline transition-all duration-200"
+                  >
+                    Main Branch: Behind Gani Market, Chhibramau, Kannauj
+                  </a>
+                  <p className="mt-1">
+                    Extension Branch: Farrukhabad Road, Chhibramau, Kannauj
+                  </p>
+                </div>
               </li>
             </ul>
           </div>
