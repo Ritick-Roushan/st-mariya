@@ -32,7 +32,7 @@ const Curriculum = () => {
             CBSE Curriculum at St. Mariya Public School
           </h1>
           <p className="text-lg md:text-xl font-light max-w-2xl mx-auto">
-            Nurturing academic excellence and life skills through a holistic CBSE curriculum for Classes 1 to 12.
+            Nurturing academic excellence and life skills through a holistic CBSE curriculum for Pre-Primary to Class 12.
           </p>
         </div>
       </section>
@@ -51,12 +51,17 @@ const Curriculum = () => {
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          St. Mariya Public School follows the Central Board of Secondary Education (CBSE) curriculum, designed to foster critical thinking, innovation, and holistic development from Classes 1 to 12, in alignment with the National Education Policy (NEP) 2020.
+          St. Mariya Public School follows the Central Board of Secondary Education (CBSE) curriculum, designed to foster critical thinking, innovation, and holistic development from Pre-Primary to Class 12, in alignment with the National Education Policy (NEP) 2020.
         </p>
 
         {/* Curriculum Stages */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-6">
           {[
+            {
+              stage: 'Pre-Primary Stage (PG–UKG)',
+              desc: 'Focuses on play-based learning, developing motor skills, language, and social skills through activities like storytelling, rhymes, and creative play.',
+              icon: 'M12 14l9-5-9-5-9 5 9 5z',
+            },
             {
               stage: 'Primary Stage (Classes 1–5)',
               desc: 'Builds foundational skills in English, Mathematics, Environmental Studies, and Languages, with a focus on creativity, moral values, and interactive learning.',
@@ -156,6 +161,18 @@ const Curriculum = () => {
         </h2>
         <div className="space-y-8">
           {[
+            {
+              stage: 'Pre-Primary (PG–UKG)',
+              subjects: [
+                'English (Oral & Written)',
+                'Mathematics (Basic Concepts)',
+                'Environmental Awareness',
+                'Rhymes and Storytelling',
+                'Art and Craft',
+                'Physical Activities',
+                'Music and Movement',
+              ],
+            },
             {
               stage: 'Primary (Classes 1–5)',
               subjects: [

@@ -16,6 +16,7 @@ import Counsellor from './pages/Counsellor.jsx';
 import Behavioural from './pages/Behavioural.jsx';
 import Admission from './pages/Admission.jsx';
 import Contact from './pages/contact.jsx';
+import Gallery from './pages/Gallery.jsx'; // Importing Gallery component
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: "/contact", // means path: '/'
         element: <Contact />,
+      },
+      {
+        path: "/gallery", // means path: '/'
+        element: <Gallery />,
       },
     ],
   },

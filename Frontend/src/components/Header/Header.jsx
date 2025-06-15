@@ -11,8 +11,8 @@ const menuItems = {
   ],
   cbse: [
     { to: '/curriculum', text: 'CBSE Curriculum' },
-    { to: '/mandatory-disclosure', text: 'Mandatory Disclosure' },
-    { to: '/affiliation-details', text: 'Affiliation Details' },
+    // { to: '/mandatory-disclosure', text: 'Mandatory Disclosure' },
+    // { to: '/affiliation-details', text: 'Affiliation Details' },
   ],
   academics: [
     { to: '/curriculum', text: 'Curriculum' },
@@ -20,8 +20,8 @@ const menuItems = {
     { to: '/examination-policy', text: 'Examination Policy' },
     { to: '/counsellor-column', text: 'Counsellor Column' },
     { to: '/behavioural-policy', text: 'Behavioural Policy' },
-    { to: '/faculty', text: 'Faculty' },
-    { to: '/results', text: 'Results' },
+    // { to: '/faculty', text: 'Faculty' },
+    // { to: '/results', text: 'Results' },
   ],
 };
 
@@ -118,7 +118,23 @@ const Header = () => {
               >
                 <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.47.57 3.57.11.35.03.74-.25 1.02L6.62 10.79z" />
               </svg>
-              9452426947, 7007061031
+              <span>
+                <a
+                  href="tel:+919452426947"
+                  className="hover:text-[#FF9999] transition-colors duration-200"
+                  aria-label="Call 9452426947"
+                >
+                  9452426947
+                </a>
+                ,{' '}
+                <a
+                  href="tel:+917007061031"
+                  className="hover:text-[#FF9999] transition-colors duration-200"
+                  aria-label="Call 7007061031"
+                >
+                  7007061031
+                </a>
+              </span>
             </span>
             <span className="flex items-center justify-center sm:justify-start whitespace-nowrap">
               <svg
@@ -129,7 +145,13 @@ const Header = () => {
               >
                 <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
               </svg>
-              stmariyacbr@gmail.com
+              <a
+                href="mailto:stmariyacbr@gmail.com"
+                className="hover:text-[#FF9999] transition-colors duration-200"
+                aria-label="Email stmariyacbr@gmail.com"
+              >
+                stmariyacbr@gmail.com
+              </a>
             </span>
           </div>
           <div className="flex items-center space-x-4">
@@ -286,6 +308,14 @@ const Header = () => {
             </div>
 
             <Link
+              to="/gallery"
+              className="relative hover:text-[#FF9999] transition-colors duration-200 focus:ring-2 focus:ring-[#FF9999] focus:outline-none after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#FF9999] after:transition-all after:duration-300 hover:after:w-full"
+              onClick={closeAll}
+            >
+              Gallery
+            </Link>
+
+            <Link
               to="/admissions"
               className="relative hover:text-[#FF9999] transition-colors duration-200 focus:ring-2 focus:ring-[#FF9999] focus:outline-none after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#FF9999] after:transition-all after:duration-300 hover:after:w-full"
               onClick={closeAll}
@@ -384,6 +414,13 @@ const Header = () => {
               )}
             </div>
           ))}
+          <Link
+            to="/gallery"
+            className="block hover:text-[#FF9999] transition-colors duration-200"
+            onClick={closeAll}
+          >
+            Gallery
+          </Link>
           <Link
             to="/admissions"
             className="block hover:text-[#FF9999] transition-colors duration-200"

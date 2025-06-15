@@ -73,10 +73,10 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="hover:text-[#FF9999] hover:underline transition-all duration-200"
                   >
-                    Main Branch: Behind Gani Market, Chhibramau, Kannauj
+                    Main Branch: Behind Gani Market, Chhibramau, Kannauj, Uttar Pradesh 209721
                   </a>
                   <p className="mt-1">
-                    Extension Branch: Farrukhabad Road, Chhibramau, Kannauj
+                    Extension Branch: Farrukhabad Road, Chhibramau, Kannauj, Uttar Pradesh 209721
                   </p>
                 </div>
               </li>
@@ -111,7 +111,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-4 border-t border-[#E5E7EB]/20 text-center text-sm">
-          <p>© {new Date().getFullYear()} St. Mary Public School. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} St. Mariya Public School. All rights reserved.</p>
         </div>
       </div>
     </footer>

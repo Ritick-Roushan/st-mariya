@@ -51,7 +51,7 @@ const Admission = () => {
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          St. Mariya Public School welcomes applications for Classes 1 to 12, offering a CBSE curriculum with a focus on the Science stream for Classes 11–12. Our transparent admission process ensures fairness and accessibility.
+          St. Mariya Public School welcomes applications for Classes Pre-Primary to 12, offering a CBSE curriculum with a focus on the Science stream for Classes 11–12. Our transparent admission process ensures fairness and accessibility.
         </p>
       </section>
 
@@ -236,11 +236,11 @@ const Admission = () => {
                   rel="noopener noreferrer"
                   className="text-[#FF9999] hover:underline"
                 >
-                  Behind Gani Market, Chhibramau, Kannauj
+                  Behind Gani Market, Chhibramau, Kannauj, Uttar Pradesh 209721
                 </a>
               </p>
               <p className="text-[#374151] mb-4">
-                <strong>Extension Branch:</strong> Farrukhabad Road, Chhibramau, Kannauj
+                <strong>Extension Branch:</strong> Farrukhabad Road, Chhibramau, Kannauj, Uttar Pradesh 209721
               </p>
               <Link
                 to="/contact"

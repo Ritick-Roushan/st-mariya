@@ -136,7 +136,7 @@ const Contact = () => {
                 <div>
                   <p className="text-[#111827] font-medium">Main Branch</p>
                   <p className="text-[#111827]">
-                    Behind Gani Market, Chhibramau, Kannauj
+                    Behind Gani Market, Chhibramau, Kannauj, Uttar Pradesh 209721
                   </p>
                   <p className="text-[#111827]">
                     Mob:{' '}
@@ -175,7 +175,7 @@ const Contact = () => {
                 <div>
                   <p className="text-[#111827] font-medium">Extension Branch</p>
                   <p className="text-[#111827]">
-                    Farrukhabad Road, Chhibramau, Kannauj
+                    Farrukhabad Road, Chhibramau, Kannauj, Uttar Pradesh 209721
                   </p>
                 </div>
               </div>
@@ -271,7 +271,7 @@ const Contact = () => {
           </h2>
           <div className="text-center">
             <p className="text-[#111827] mb-4">
-              Visit us at our Main Branch in Chhibramau, Kannauj.
+              Visit us at our Main Branch in Chhibramau, Kannauj, Uttar Pradesh 209721
             </p>
             <div className="w-full h-[400px] rounded-lg overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.1)] mb-6">
               <iframe
