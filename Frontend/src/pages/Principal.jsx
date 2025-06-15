@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
-import Img7 from '../Images/Img7.jpg'; // Importing the image for the principal
+import Img7 from '../Images/img7.jpg'; // Importing the image for the principal
 
 const Principal = () => {
   // Initialize AOS for animations

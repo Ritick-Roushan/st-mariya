@@ -4,9 +4,9 @@ import Img2 from '../Images/img2.jpg';
 import Img3 from '../Images/img3.jpg';
 import Img4 from '../Images/img4.jpg';
 import Img5 from '../Images/img5.jpg';
-import Img6 from '../Images/Img6.jpg';
-import Img7 from '../Images/Img7.jpg';
-import Img8 from '../Images/Img8.jpg';
+import Img6 from '../Images/img6.jpg';
+import Img7 from '../Images/img7.jpg';
+import Img8 from '../Images/img8.jpg';
 
 const Gallery = () => {
   const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8];
