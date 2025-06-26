@@ -17,6 +17,7 @@ import Behavioural from './pages/Behavioural.jsx';
 import Admission from './pages/Admission.jsx';
 import Contact from './pages/contact.jsx';
 import Gallery from './pages/Gallery.jsx'; // Importing Gallery component
+import Mandatory_disclosure from './pages/Mandatory_disclosure.jsx';
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery", // means path: '/'
         element: <Gallery />,
+      },
+      {
+        path: "/mandatory-disclosure", // means path: '/'
+        element: <Mandatory_disclosure />,
       },
     ],
   },

@@ -11,7 +11,7 @@ const menuItems = {
   ],
   cbse: [
     { to: '/curriculum', text: 'CBSE Curriculum' },
-    // { to: '/mandatory-disclosure', text: 'Mandatory Disclosure' },
+     { to: '/mandatory-disclosure', text: 'Mandatory Disclosure' },
     // { to: '/affiliation-details', text: 'Affiliation Details' },
   ],
   academics: [
